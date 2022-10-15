@@ -12,8 +12,32 @@
 </head>
 <body>
     <header class="title"><h1>Guess That Word!</h1></header>
+
     <section class="button">
         <button id="Start"><h2>Start</h2></button>
+    </section>
+
+    <section>
+        <div class="word-guess">
+            <div class="word-blanks">_rr_ _</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="results-card">
+            <div class="wins-losses">
+                <div>
+                    <h2>Wins:<span class="'win">0</span></h2>
+                    <h2>Losses:<span class="'losses">0</span></h2>
+                </div>
+                <button class="reset-btn">Reset Score</button>
+            </div>
+            <div class="time-card">
+                <div class="seconds-remaining"></div>
+                <div class="large-font-count-down">10</div>
+                <h3>Seconds Left</h3>
+            </div>
+        </div>
     </section>
     <script src="./script.js"></script>
 </body>
